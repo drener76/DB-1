@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>main</title>
+    <style>
+        .btn
+        { margin: 5px;
+          width: 250px;
+          height: 80px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- переход по шаблонам,
+через форму узнать +- и через js(узнать как для начала.. потом уже +-)
+-->
+
+
+<!--<form method="post" action="/">
+    <input name="stud" type="submit"> &lt;!&ndash;не покатит.. скорей всего через JS надо &ndash;&gt;
+</form>-->
+    <div>
+        <button class="btn" id="to_student_form" name="Добавить студента">Добавить студента</button>
+        <button class="btn" id="to2" name="Добавить студента">Добавить группу</button>
+        <button class="btn" id="to3" name="Добавить студента">Добавить факультет</button>
+    </div>
+    <div>
+        <button class="btn" name="">Найти</button> <!-- тут кучка фильтров факультет,группа, год поступления, со временем динамическая подстановка доступных -->
+        <button class="btn" name="">Мероприятия</button> <!--тыкаем, переходим к списку доступных мероприятий(>= сегодня) и кнопка "все мероприятия" + редактировать-->
+        <button class="btn" name="">Билеты</button> <!--тыкаем. переходим к списку доступных билетов + кнопочка "все билеты"-->
+    </div>
+<!-- почему эта херь не применяет стиль-->
+    <button class="btn" name="1" style="right:50px; top:100px">Выход</button> <!--тыкаем. переходим в форму логина-->
+
+
+<!--{% for fl in myFL%}
+    <li>{{FL.id}}. {{FL.name_first}}</li>
+{% endfor%}
+{{Item.name_first}}-->
+</body>
+</html>

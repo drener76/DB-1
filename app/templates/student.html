@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student</title>
+    <style>
+        .stud_div {margin: 5px;}
+    </style>
+</head>
+
+<body>
+<!--формочка для заполнения данных по студенту-->
+
+<!--ЧТО ЛУЧШЕБЛИН.. не могу выбрать между таблицей и дивами.. почему не могу?
+дивы ущербны если без бутстрапа и адаптивности
+
+адаптивность. попробовать flex?
+-->
+
+<!--добавить обязательные/необязательные поля-->
+    <form method="post" action="/post_student">
+
+        <div class="stud_div">
+           <label>Имя</label>
+           <input id="first_name" name="first_name" type="text">
+        </div>
+        <div class="stud_div">
+           <label>Фамилия</label>
+           <input id="second_name" name="second_name" type="text">
+        </div>
+        <div class="stud_div">
+           <label>Отчество</label>
+           <input id="third_name" name="third_name" type="text">
+        </div>
+        <div class="stud_div">
+           <label>Профсоюз. карта</label>
+           <input id="cart_number" name="cart_number" type="text">
+        </div>
+
+        <div class="stud_div">
+           <label>Дата Рождения</label>
+           <input id="birthday" name="birthday" type="date">
+        </div>
+        <div class="stud_div">
+           <label>Адрес (прописка)</label>
+           <input id="adress_prop" name="adress_prop" type="text">
+        </div>
+        <div class="stud_div">
+           <label>Адрес (фактический)</label>
+           <input id="adress_fact" name="adress_fact" type="text">
+        </div>
+        <div class="stud_div">
+           <label>Телефон</label>
+           <input id="phone" name="phone" type="text">
+        </div>
+        <div class="stud_div">
+           <label>Комментарий</label>
+           <input id="comment" name="comment" type="text">
+        </div>
+        <div class="stud_div">
+           <label>Год Поступления</label>
+           <input id="date_in_univers" name="date_in_univers" type="date">
+        </div>
+        <div class="stud_div">
+           <label>Дата вступления в профсоюз</label>
+           <input id="date_in_prof" name="date_in_prof" type="date">
+        </div>
+
+        <div class="stud_div">
+           <label>Курс</label>
+           <input id="course" name="course" type="text">
+        </div>
+        <div class="stud_div">
+           <label>Факультет</label>
+           <input id="faculty" name="faculty" type="text">
+        </div>
+        <div class="stud_div">
+           <label>Группа</label>
+           <input id="group" name="group" type="text">
+        </div>
+        <div class="stud_div">
+           <label>Дисконтная карта</label>
+           <input id="discont_card" name="discont_card" type="text">
+        </div>
+        <div class="stud_div">
+           <label>E-mail</label>
+           <input id="email" name="email" type="text">
+        </div>
+        <div class="stud_div">
+           <label>Профорг</label>
+           <input id="proforg" name="proforg" type="checkbox">
+        </div>
+
+        <input name="Добавить" type="submit">
+    </form>
+
+
+</body>
+</html>
